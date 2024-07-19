@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Poppins", sans-serif;;
+}
+
+.background-footer{
+    display: flex;
+    background-color: aliceblue;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; 
+}
+
+.logos-footer{
+    color: rgb(0, 153, 255);
+    margin-left: 4vh;
+    margin-bottom: 5vh;
+    display: grid;
+    grid-row-gap: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre-footer{
+    margin-left: 16vh;
+    margin-top: 13px;
+    display: grid;
+    grid-row-gap: 1px;
+    font-family:"Poppins", sans-serif;;
+    display: flex;
+    flex-direction: column 
+}
+
+.sobre-footer a{
+    color: rgb(0, 153, 255);
+    
+}
+
+.sobre-footer #Sobre-destaque{
+    color: rgb(25, 65, 92);
+    font-weight: bold;
+}
+
+.logos-footer a{
+    color: rgb(0, 153, 255);
+}
+
+.contatos-footer{
+    margin-top: 12px;
+    margin-left: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.contatos-footer #Contatosfooter{
+    color: rgb(25, 65, 92);
+    font-weight: bold;
+}
+
+.contatos-footer a{
+    color: rgb(0, 153, 255);
+}
+
+.copyright{
+    margin-left: 7vh;
+    margin-top: 16vh;
+    font-size: 12px;
+    color: rgb(0, 153, 255);
+}
